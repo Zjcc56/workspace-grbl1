@@ -1419,18 +1419,18 @@ cpdefine("inline:com-chilipeppr-workspace-shapeoko3", ["chilipeppr_ready"], func
 
             
             // WebRTC Client com-chilipeppr-webrtcclient
-            chilipeppr.load(
-                "com-chilipeppr-webrtcclient",
-                "http://fiddle.jshell.net/chilipeppr/qWj4f/show/light/",
+    chilipeppr.load(
+        "com-chilipeppr-webrtcclient",
+        "http://fiddle.jshell.net/lordmundi/jrrhjnak/show/light/",
 
-                function() {
-                    cprequire(
-                        ["inline:com-chilipeppr-widget-webrtc-client"],
+    function () {
+        cprequire(
+        ["inline:com-chilipeppr-widget-webrtc-client"],
 
-                        function(webrtcclient) {
-                            webrtcclient.init();
-                        });
-                });
+        function (webrtcclient) {
+            webrtcclient.init();
+        });
+    });
                 
 
             // Serial Port Selector
