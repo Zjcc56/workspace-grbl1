@@ -1417,7 +1417,7 @@ cpdefine("inline:com-chilipeppr-workspace-shapeoko3", ["chilipeppr_ready"], func
                         });
                 });
 
-            /*
+            
             // WebRTC Client com-chilipeppr-webrtcclient
             chilipeppr.load(
                 "com-chilipeppr-webrtcclient",
@@ -1431,7 +1431,7 @@ cpdefine("inline:com-chilipeppr-workspace-shapeoko3", ["chilipeppr_ready"], func
                             webrtcclient.init();
                         });
                 });
-                */
+                
 
             // Serial Port Selector
             // http://jsfiddle.net/chilipeppr/vetj5fvx/
